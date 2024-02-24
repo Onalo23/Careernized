@@ -41,14 +41,14 @@ function Dashboard() {
       <HobbyForm />
 
       <section className='content'>
-        {goals.length > 0 ? (
+        {hobby.length > 0 ? (
           <div className='Hobbies'>
             {hobbies.map((hobby) => (
               <Hobby key={Hobby._id} hobby={hobby} />
             ))}
           </div>
         ) : (
-          <h3>You have not set any hobby</h3>
+          <h3>write down your hobby</h3>
         )}
       </section>
     </>
