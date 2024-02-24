@@ -7,6 +7,6 @@ const {
 
 router.post('/', registerUser)
 router.post('/login', loginUser)
-router.get('/me' , get)
+router.get('/me' , getMe)
 
 module.exports = router
